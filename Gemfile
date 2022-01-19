@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'pagy', '~> 5.8'
 gem 'bcrypt', '~> 3.1.7'
+gem 'draper', '~> 4.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
