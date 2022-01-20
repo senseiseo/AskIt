@@ -1,5 +1,7 @@
-class Answer < ApplicationRecord
-  belongs_to :question 
+# frozen_string_literal: true
 
-  validates :body, presence: true, length: {minimum: 5}
+class Answer < ApplicationRecord
+  belongs_to :question
+
+  validates :body, presence: true, length: { minimum: 5 }
 end
