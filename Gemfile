@@ -16,6 +16,11 @@ gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'valid_email2', '~> 4.0'
 gem 'webpacker', '~> 5.0'
+gem 'rubyzip', '~> 2.3'
+gem 'caxlsx', '~> 3.1'
+gem 'caxlsx_rails', '~> 0.6'
+gem 'rubyXL', '~>3.4'
+gem 'activerecord-import', '~> 1.2'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -30,6 +35,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'faker', '~> 2.19'
+  gem 'pry-rails'
 end
 
 group :development do

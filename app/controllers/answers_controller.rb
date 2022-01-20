@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 class AnswersController < ApplicationController
   include ActionView::RecordIdentifier
 
@@ -24,7 +23,9 @@ class AnswersController < ApplicationController
       flash[:success] = 'Answer created!'
       redirect_to question_path(@question)
     else
-      @answers = @question.answers.order created_at: :desc
+      @question = @question.decorate
+      @pagy, @answers = pagy @question.answers.order created_at: :desc
+      @answers = @answers.decorate
       render 'questions/show'
     end
   end
