@@ -21,6 +21,7 @@ gem 'turbolinks', '~> 5'
 gem 'valid_email2', '~> 4.0'
 gem 'webpacker', '6.0.0.rc.6'
 gem 'rails-i18n', '~> 6'
+gem 'dotenv-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
