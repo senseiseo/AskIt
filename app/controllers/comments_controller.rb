@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CommentsController < ApplicationController
   include QuestionsAnswers
   before_action :set_commentable!

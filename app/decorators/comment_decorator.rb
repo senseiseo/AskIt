@@ -9,5 +9,4 @@ class CommentDecorator < ApplicationDecorator
 
     commentable == self.commentable
   end
-
 end

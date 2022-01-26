@@ -12,7 +12,3 @@ Style/Documentation:
 Rails/FilePath:
   EnforcedStyle: arguments
 
-I18n/RailsI18n:
-  Enabled: true
-I18n/GetText:
-  Enabled: false
