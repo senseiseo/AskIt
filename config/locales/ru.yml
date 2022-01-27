@@ -17,11 +17,19 @@ ru:
         password: Пароль
         password_confirmation: Подтверждение пароля
         updated_at: Обновлён
+        role: Роль
     models:
       question: Вопрос
   admin:
     users:
+      edit:
+        title: Редактирование пользователя
+      destroy: 
+        success: Пользователи удален!
+      update:
+        success: Пользователи обновлены!
       create:
+        success: Пользователи обновлены!
         success: Пользователи загружены!
       index:
         download_zipped: Загрузить архив с XLSX
@@ -46,6 +54,11 @@ ru:
       success: Ответ обновлён!
   en: Английский
   global:
+    user: 
+      roles: 
+        basic: Пользователь
+        moderator: Модератор
+        admin: Админ
     button:
       delete: Удалить
       edit: Изменить
