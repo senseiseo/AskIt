@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  concern :commentable do 
+  concern :commentable do
     resources :comments, only: %i[create destroy]
-  end 
+  end
 
-  namespace :api do 
+  namespace :api do
     resources :tags, only: :index
-  end 
+  end
 
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
     resource :session, only: %i[new create destroy]

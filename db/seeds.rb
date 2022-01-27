@@ -11,7 +11,7 @@
 #   u.save
 # end
 
-  30.times do
-    title = Faker::Hipster.word
-    Tag.create title: title
-  end
+30.times do
+  title = Faker::Hipster.word
+  Tag.create title: title
+end

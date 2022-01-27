@@ -67,6 +67,7 @@ ru:
     dialog:
       you_sure: Вы уверены?
     flash:
+      not_authorized: Пользователь не авторизован
       already_signed_in: Вы уже вошли в систему!
       not_signed_in: Вы не вошли в систему!
     text:
