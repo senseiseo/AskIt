@@ -103,6 +103,25 @@ ru:
     update:
       success: Вопрос обновлён!
   ru: Русский
+  password_reset_mailer: 
+    reset_email:
+      subject: 'Сброс пароля | AskIt' 
+  password_resets: 
+    fail: Не удалось сбросить ваш пароль
+    update: 
+      success:  Пароль обновлен.
+    edit: 
+      title: Введите новый пароль
+      form: 
+        submit: Сбросить пароль
+    create: 
+      success: Письмо для сброса пароля отрпавлено на ваш почтовый адресс.
+    new: 
+      title: Сбросить пароль 
+      form: 
+        email: Емайл
+        submit: Сбросить пароль
+        back: Вернутся назад
   sessions:
     create:
       invalid_creds: Неверный email и/или пароль!
@@ -111,6 +130,7 @@ ru:
       success: До новых встреч!
     new:
       form:
+        forgot_password: Сбросить пароль
         email: Email
         password: Пароль
         remember_me: Запомнить меня
